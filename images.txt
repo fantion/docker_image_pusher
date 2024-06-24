@@ -1,10 +1,10 @@
-nginx
+#nginx
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
-registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.11.1
-registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.9.2
-quay.io/prometheus/blackbox-exporter:v0.24.0
+#registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.11.1
+#registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.9.2
+#quay.io/prometheus/blackbox-exporter:v0.24.0
 grafana/grafana:9.5.3
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
